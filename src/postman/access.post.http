@@ -1,0 +1,22 @@
+@url=http://localhost:5000/v1/api/
+### Sign up
+
+POST {{url}}shop/signup
+Content-Type: application/json
+x-api-key: 7238a3346023b12a77f64c65141000f30dc4a8509eab32582c9f68db3b671d4f0a04fa4a66d512331b96f525821da2bc406b961a1da98cfeac74c7eea8aff597
+
+{
+    "name": "Nguyen1",
+    "email": "nguyen32@gmail.com",
+    "password": "123"
+}
+
+###login
+POST {{url}}shop/login
+Content-Type: application/json
+x-api-key: 7238a3346023b12a77f64c65141000f30dc4a8509eab32582c9f68db3b671d4f0a04fa4a66d512331b96f525821da2bc406b961a1da98cfeac74c7eea8aff597
+
+{
+    "email": "nguyen32@gmail.com",
+    "password": "123"
+}
